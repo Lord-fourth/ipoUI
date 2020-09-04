@@ -1,0 +1,22 @@
+<div class="card my-5">
+    <div class="card-body">
+      <table class="table table-bordered table-striped">
+        <thead class="thead-dark">
+
+
+
+        </thead>
+        <tbody>
+          <tr *ngFor="let ipoClass of IpoClasses">
+            <td>{{ ipoClass.ipoId}}</td>
+            <td>{{ ipoClass.companyName }}</td>
+            <td>{{ ipoClass.pricePerShare }}</td>
+            <td>{{ ipoClass.totalShare }}</td>
+            <td>{{ ipoClass.openDateTime }}</td>
+            <td>{{ ipoClass.remarks }}</td>
+          
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
